@@ -7,6 +7,7 @@ export const user = (state = initialState, { type, payload }) => {
     default:
       return state;
   }
+  return 2;
 };
 
 export default user;
