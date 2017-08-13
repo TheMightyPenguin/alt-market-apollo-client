@@ -1,8 +1,7 @@
-import { combineReducers } from 'redux';
-import reducers from './common/reducers';
+/* @flow */
 
-export const reducer = combineReducers({
-  ...reducers
-});
+import { combineReducers } from 'redux';
+
+export const reducer = state => state;
 
 export default reducer;
