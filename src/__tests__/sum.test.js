@@ -8,5 +8,5 @@ describe('sum tests', () => {
 
 const x = (a: string): string => a;
 
-console.log(x(1));
-console.log(x('1'));
+x(1);
+x('1');

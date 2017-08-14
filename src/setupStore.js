@@ -17,9 +17,3 @@ export const setupStore = () => {
 };
 
 export default setupStore;
-
-const a = 2;
-
-const x = (a: string) => a + 'as';
-
-x(2);
